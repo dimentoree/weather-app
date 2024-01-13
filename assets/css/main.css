@@ -1,1 +1,22 @@
 @import '../fonts/fonts.css';
+
+@import '../../components/page/page.css';
+@import '../../components/card/card.css';
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --slate-gray: #37474f;
+    --black-gray-1: #232931;
+    --black-gray-2: #222831;
+    --midnight-black: #1a237e;
+    --purple-blue-crayola: #303f9f;
+
+    --box-shadow: 0 5px 15px var(--black);
+    --transition: all 0.3s ease;
+    --transform: scale(1.1);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
