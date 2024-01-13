@@ -1,0 +1,134 @@
+.card {
+    height: 400px;
+    color: var(--white);
+    background: var(--black-gray-1);
+    border-radius: 25px;
+    box-shadow: var(--box-shadow);
+}
+
+.card__left_info {
+    width: 260px;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    transform: scale(1.03);
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 0 20px -10px var(--black);
+    transition: var(--transition);
+}
+
+.card__left_info:hover {
+    color: var(--black-gray-2);
+    background: var(--white);
+    transform: var(--transform);
+}
+
+.card__today_info {
+    margin-top: 25px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__today_weather {
+    left: 20px;
+    bottom: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card__today_weather .bx {
+    font-size: 4.5rem;
+}
+
+.card__weather_text {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.card__right_info {
+    height: 100%;
+    padding-top: 25px;
+    float: right;
+    position: relative;
+}
+
+.card__day_info {
+    padding: 25px 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.day_info__title {
+    font-weight: 700;
+}
+
+.day_info__value {
+    float: right;
+}
+
+.card__days_list {
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    margin: 10px 35px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+}
+
+.days_list__item {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.days_list__item:hover {
+    color: var(--black-gray-2);
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    transform: var(--transform);
+}
+
+.days_list__item .bx {
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.days_list__item_text {
+    margin-top: 6px;
+    font-weight: 700;
+}
+
+.card__button {
+    padding: 25px;
+}
+
+.location_button {
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    color: var(--white);
+    background: var(--purple-blue-crayola);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.location_button:hover {
+    background: var(--midnight-black);
+}
+
+.location_button:focus{
+    outline: none;
+}
