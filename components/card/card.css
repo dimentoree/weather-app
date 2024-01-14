@@ -14,14 +14,16 @@
     justify-content: center;
     transform: scale(1.03);
     cursor: pointer;
+    color: var(--black-gray-2);
+    background: var(--white);
     border-radius: 25px;
     box-shadow: 0 0 20px -10px var(--black);
     transition: var(--transition);
 }
 
 .card__left_info:hover {
-    color: var(--black-gray-2);
-    background: var(--white);
+    color: var(--white);
+    background: var(--black-gray-1);
     transform: var(--transform);
 }
 
